@@ -1,0 +1,17 @@
+spring:
+  # session失效时间
+  session:
+    timeout: 86400
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: 'jdbc:mysql://106.54.5.213:3306/huoban'
+    username: root
+    password: 951753
+  redis:
+    port: 6379
+    host: localhost
+    database: 0
+server:
+  port: 8081
+  servlet:
+    context-path: /api
